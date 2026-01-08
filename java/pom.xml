@@ -44,6 +44,10 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
+          <configuration>
+            <source>8</source>
+            <target>8</target>
+          </configuration>
           <mainClass>com.example.flattener.FlattenerApplication</mainClass>
         </configuration>
       </plugin>
