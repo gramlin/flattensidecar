@@ -1,5 +1,7 @@
 # flattensidecar
 
+Ett enkelt sidoprojekt för att platta till PDF-formulär via ett litet Java-API.
+
 ## Bygg och provkör
 
 Bygg ett körbart JAR med Maven:
