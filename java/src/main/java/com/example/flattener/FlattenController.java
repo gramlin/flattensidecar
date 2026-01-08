@@ -29,7 +29,7 @@ public class FlattenController {
 
         File tempFile = File.createTempFile("flattened-", ".pdf");
         try {
-            // TODO: Verify iText licensing requirements before production use.
+            // TODO: Kontrollera licenskraven för iText innan produktion.
             try (InputStream inputStream = file.getInputStream();
                  FileOutputStream outputStream = new FileOutputStream(tempFile);
                  PdfDocument pdfDocument = new PdfDocument(new PdfReader(inputStream), new PdfWriter(outputStream))) {
