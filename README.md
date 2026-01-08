@@ -1,6 +1,6 @@
 # flattensidecar
 
-Ett enkelt sidoprojekt för att platta till PDF-formulär via ett litet Java-API.
+En enkel sidecar till filofanten för att platta till PDF-formulär.
 
 ## Bygg och provkör
 
